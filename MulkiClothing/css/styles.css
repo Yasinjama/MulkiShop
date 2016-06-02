@@ -1,0 +1,45 @@
+body {
+	font-size: 16px;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	/*background-color: #222930;*/
+	background-color: #4EB1BA;;
+}
+/**
+#222930
+#4EB1BA
+#E9E9E9
+**/
+
+/**HEADER**/
+#header-nav {
+	border-radius: 0;
+	border: 0;
+	background-color: #222930;
+}
+
+.navbar-brand h1 {
+	font-style: italic;
+	color: #4EB1BA;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+#logo {
+	font-size: 25px;
+	color: #4EB1BA;
+	padding: 10px 5px 0 0;
+}
+
+#collapsable-nav a {
+	padding: 10px 10px 5px 10px;
+	color: #FFFFFF;
+}
+
+#collapsable-nav li {
+	margin-top: 10px
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:focus {
+	background-color: #4EB1BA;
+}
