@@ -17,14 +17,15 @@ body {
 	border: 0;
 	background-color: #222930;
 }
-
+.navbar-brand {
+	margin-right: 15px;
+}
 .navbar-brand h1 {
 	font-style: italic;
 	color: #4EB1BA;
 	font-size: 1.5em;
 	margin-top: 0;
 }
-
 #logo {
 	font-size: 25px;
 	color: #4EB1BA;
@@ -40,6 +41,56 @@ body {
 	margin-top: 10px
 }
 
-#collapsable-nav a:hover, #collapsable-nav a:focus {
+#left-list a:hover, #left-list a:focus {
 	background-color: #4EB1BA;
+}
+
+.container .jumbotron {
+	box-shadow: 0 0 50px #222930;
+	border: 2px solid #222930;
+}
+
+.main-title {
+	border: 2px solid #222930;
+	text-align: center;
+	font-size: 1.53em;
+	color: #222930;
+	margin-bottom: 20px;
+}
+
+.main-title span {
+	color: red;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/scarves_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/scarves_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/scarves_768.jpg') no-repeat;
+    height: 432px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.container .jumbotron {
+		padding: 0;
+	}
+
 }
