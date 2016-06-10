@@ -46,3 +46,18 @@ body {
 #top ul.menu > li a {
 	color: #eeeeee;
 }
+
+#top #login-modal .modal-header {
+	background: #4fbfa8;
+	text-align: center;
+}
+
+#top #login-modal p {
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #4fbfa8;
+}
