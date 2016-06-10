@@ -1,0 +1,48 @@
+body {
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #f0f0f0;
+}
+
+#top {
+	background: #555555;
+	padding: 10px 0;
+}
+
+#top .offer {
+	color: #fff;
+}
+
+#top a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#top .offer .btn {
+	text-transform: uppercase;
+}
+
+#top ul.menu {
+	padding-top: 5px;
+	margin: 0;
+	text-align: right;
+	font-size: 12px;
+	list-style: none;
+
+}
+
+#top ul.menu > li + li:before {
+  content: "|\00a0";
+  padding: 0 5px;
+  color: #f7f7f7;
+}
+
+#top ul.menu > li {
+	display: inline-block;
+}
+
+#top ul.menu > li a {
+	color: #eeeeee;
+}
