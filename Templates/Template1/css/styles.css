@@ -47,6 +47,10 @@ body {
 	color: #eeeeee;
 }
 
+.modal-title h4 {
+	color: #ffffff;
+}
+
 #top #login-modal .modal-header {
 	background: #4fbfa8;
 	text-align: center;
@@ -57,7 +61,26 @@ body {
 	margin-bottom: 20px;
 }
 
+#top #login-modal a {
+	color: #4fbfa8;
+}
+.form-group {
+	margin-bottom: 20px;
+}
 .btn-primary {
 	color: #ffffff;
 	background-color: #4fbfa8;
+}
+
+.btn {
+    font-weight: normal;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 3px;
+}
+
+a i.fa, button i.fa {
+	margin: 0 5px;
 }
