@@ -84,3 +84,93 @@ body {
 a i.fa, button i.fa {
 	margin: 0 5px;
 }
+
+.navbar-default {
+	background-color: #ffffff;
+	border-bottom-color: #e6e6e6;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-brand span {
+	font-size: 25px;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+#navbar-btn {
+    font-weight: normal;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 3px;
+    color: #ffffff;
+    background-color: #4fbfa8;
+    border-color: #41b39c;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#list-left a {
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+#list-lef a:hover, #list-left a:focus, #list-left .active a{
+	color: #555555;
+    background-color: #4fbfa8;
+}
+#carousel-id {
+	margin-bottom: 25px;
+}
+#advantage {
+	text-align: center;
+}
+.box {
+	background-color: #fff;
+	border: solid 1px #e6e6e6;
+	margin: 0 0 30px;
+	box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+#hot h2 {
+	text-transform: uppercase;
+	font-size: 36px;
+	color: #4fbfa8;
+	font-weight: 100;
+	text-align: center;
+}
+@media (min-width: 768px) and (max-width: 992px){
+	#top ul.menu {
+		text-align: center;
+	}
+
+	#top .offer {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+}
+
+#content .product {
+	background-color: #fff;
+	height: 380px;
+}
+@media(max-width: 767px)
+{
+		#top ul.menu {
+		text-align: center;
+	}
+
+	#top .offer {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+}
