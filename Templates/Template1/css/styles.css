@@ -231,4 +231,8 @@ a i.fa, button i.fa {
 		text-align: center;
 		margin-bottom: 10px;
 	}
+
+	#footer {
+		text-align: center;
+	}
 }
