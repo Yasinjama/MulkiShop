@@ -74,6 +74,7 @@ a {
 .btn-primary {
 	color: #ffffff;
 	background-color: #4fbfa8;
+	border-color: #41b39c;
 }
 
 .btn {
@@ -97,6 +98,9 @@ a i.fa, button i.fa {
 	border-bottom-color: #e6e6e6;
 }
 
+.navbar {
+	border-radius: 0;
+}
 .navbar-brand {
 	padding: 10px 15px;
 }
@@ -155,17 +159,6 @@ a i.fa, button i.fa {
 	font-weight: 100;
 	text-align: center;
 }
-@media (min-width: 768px) and (max-width: 992px){
-	#top ul.menu {
-		text-align: center;
-	}
-
-	#top .offer {
-		text-align: center;
-		margin-bottom: 10px;
-	}
-
-}
 
 .items {
 	margin-bottom: 30px;
@@ -221,6 +214,20 @@ a i.fa, button i.fa {
 	padding: 20px 0;
 	font-size: 12px;
 }
+
+.breadcrumb {
+	padding:8px 15px;
+	margin-bottom: 20px;
+	background: #ffffff;
+	border-radius: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.breadcrumb > li + li:before {
+	content: ">\00a0";
+	color: #cccccc;
+}
+
 @media(max-width: 767px)
 {
 		#top ul.menu {
@@ -235,4 +242,16 @@ a i.fa, button i.fa {
 	#footer {
 		text-align: center;
 	}
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+	#top ul.menu {
+		text-align: center;
+	}
+
+	#top .offer {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
 }
