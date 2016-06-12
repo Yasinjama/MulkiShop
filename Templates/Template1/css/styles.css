@@ -167,6 +167,10 @@ a i.fa, button i.fa {
 
 }
 
+.items {
+	margin-bottom: 30px;
+}
+
 #content .product {
 	background-color: #fff;
 	margin: 0 25px;
@@ -191,6 +195,31 @@ a i.fa, button i.fa {
 	font-size: 18px;
 	text-align:center;
 	font-weight: 300;
+}
+
+#footer {
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+
+#footer ul {
+	padding: 0;
+	list-style: none;
+}
+
+#footer #hours li{
+	padding-bottom: 5px;
+}
+
+.footer-text {
+	color: #777;
+}
+
+#copyright {
+	background:#333;
+	color: #ccc;
+	padding: 20px 0;
+	font-size: 12px;
 }
 @media(max-width: 767px)
 {
